@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <!-- Import police Roboto -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        Import de mon js
+        <script src="./assets/js/vanilla.js"></script>
+        <!-- Import Axios -->
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <title>Formulaire</title>
+    </head>
+    <body>
+        <div class="container">
+            <form id="contact-form">
+                <h1>Formulaire de contact</h1>
+                <input
+                    type="text"
+                    id="firstname"
+                    name="firstname"
+                    placeholder="Prénom"
+                />
+                <input
+                    type="text"
+                    id="lastname"
+                    name="lastname"
+                    placeholder="Nom"
+                />
+                <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    placeholder="Email"
+                />
+                <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="Sujet"
+                />
+                <textarea
+                    name="message"
+                    id="message"
+                    placeholder="Votre message ici ..."
+                ></textarea>
+                <button id="btn-submit" type="submit">
+                    Envoyer le message
+                </button>
+            </form>
+        </div>
+    </body>
+</html>

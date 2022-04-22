@@ -1,0 +1,80 @@
+body {
+    font-family: "Roboto";
+    background-color: #7359dc;
+    display: flex;
+    justify-content: center;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #dadada;
+    width: 500px;
+    height: 696px;
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    margin: 110px 586px;
+    box-sizing: border-box;
+}
+
+input {
+    width: 420px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #dadada;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 420px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid #dadada;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    resize: none;
+
+    font-family: "Roboto";
+}
+
+h1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 26px;
+    margin: 59px 0;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+button {
+    width: 420px;
+    height: 50px;
+    margin-bottom: 41px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #7359dc;
+    border: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: white;
+    color: #7359dc;
+    border: solid #7359dc 1px;
+    transition-timing-function: ease-in;
+    transition: 0.4s;
+}

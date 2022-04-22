@@ -17,7 +17,7 @@ $.addEventListener("DOMContentLoaded", () => {
 
         //!Requete axios
         const response = await axios.post(
-            "https://formulaire-inthone.herokuapp.com/",
+            "https://formulaire-inthone.herokuapp.com/form",
             data
         );
 
